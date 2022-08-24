@@ -1,0 +1,23 @@
+#Aline Yamauchi 19.02527-0
+#Klaus H L Rezende 19.01904-0
+#Pedro H R Daniel 18.01460-7
+#Victor Aisemberg 19.00528-8
+#Guilherme T Souza 19.
+
+*********************************************************************************************************************************
+
+Projeto: Sensor de biometria
+
+
+
+Objetivo: Monitorar o acesso de usuário de algum ambiente/ferramenta através do reconhecimento de sua biometria digital assim concedendo ou negando seu acesso.
+
+Componentes: 
+Raspberry pi 3
+Sensor de digital UART TTL 3V-5V 
+Led (Vermelho e Verde)
+Display
+*Alto falante(buzzer)
+
+
+
