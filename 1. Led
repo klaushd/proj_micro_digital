@@ -1,0 +1,15 @@
+import RPi.GPIO as gpio
+2. import time
+3.
+4. # Configurando como BCM, Numeracao do GPIO
+5. gpio.setmode(gpio.BCM)
+6.
+7. # Configurando a direcao do Pino
+8. gpio.setup(18, gpio.OUT)
+9. gpio.output(18, gpio.HIGH)
+10. time.sleep(2)
+11. gpio.output(18, gpio.LOW)
+12. time.sleep(2)
+13.
+14. # Desfazendo as modificações do GPIO
+15. gpio.cleanup()
